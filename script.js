@@ -7,6 +7,7 @@ for (let i = 0; i < list.length; i++) {
       list[j].classList.remove("active");
     }
     this.classList.add("active");
+    list.sty
 
     let dataFilter = this.getAttribute("data-filter");
 
@@ -19,6 +20,7 @@ for (let i = 0; i < list.length; i++) {
       ) {
         card[k].classList.remove("hide");
         card[k].classList.add("active");
+        
       }
     }
   });
