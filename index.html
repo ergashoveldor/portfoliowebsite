@@ -4,59 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <p class="container-name">CSS Projects</p>
+      <ul>
+        <li class="list active" data-filter="all">All</li>
+        <li class="list" data-filter="css">CSS</li>
+        <li class="list" data-filter="javascript">JavaScript</li>
+      </ul>
       <div class="cards">
-        <div class="card">
+        <div class="card" data-item="css">
           <a href="https://hotel-bookingwebsite.netlify.app/" target="_blank">
             <img src="./img/hotelbooking.png" alt="image" />
             <p>Hotel Booking</p>
           </a>
         </div>
-        <div class="card">
+        <div class="card" data-item="css">
           <a href="https://elecarr.netlify.app/" target="_blank">
             <img src="./img/elecar.png" alt="image" />
             <p>Elecar</p>
           </a>
         </div>
-        <div class="card">
+        <div class="card" data-item="css">
           <a href="https://fastfood-pizza.netlify.app/" target="_blank">
             <img src="./img/kudapissa.png" alt="image" />
             <p>Куда пицца</p>
           </a>
         </div>
-        <div class="card">
+        <div class="card" data-item="css">
           <a href="https://personal-portfolio-design.netlify.app/" target="_blank">
             <img src="./img/personalportfolio.png" alt="image" />
             <p>Portfolio</p>
           </a>
         </div>
       </div>
-      <p class="container-name">JavaScript Projects</p>
-
       <div class="cards">
-        <div class="card">
+        <div class="card" data-item="javascript">
           <a href="https://editor-textt.netlify.app/" target="_blank">
             <img src="./img/texteditor.png" alt="image" />
             <p>Text Editor</p>
           </a>
         </div>
-        <div class="card">
+        <div class="card" data-item="javascript">
           <a href="https://color-randomm.netlify.app/" target="_blank">
             <img src="./img/randomcolor.png" alt="image" />
             <p>Random Color</p>
           </a>
         </div>
-        <div class="card">
+        <div class="card" data-item="javascript">
           <a href="https://editor-textt.netlify.app/" target="_blank">
             <img src="https://picsum.photos/seed/picsum/300/300" alt="image" />
             <p>Project</p>
           </a>
         </div>
-        <div class="card">
+        <div class="card" data-item="javascript">
           <a href="https://editor-textt.netlify.app/" target="_blank">
             <img src="https://picsum.photos/seed/picsum/300/300" alt="image" />
             <p>Project</p>
@@ -89,4 +92,5 @@
       </div>
     </div>
   </body>
+  <script src="./script.js"></script>
 </html>
